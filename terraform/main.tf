@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "ontoscale-terraform-backend"
     key    = "openai-with-aws-test3/terraform.tfstate"
-    region = "eu-west-2"
+    region = "us-east-1"
   }
   required_providers {
     aws = {
